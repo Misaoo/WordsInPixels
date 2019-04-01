@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PixelWords</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="pixelcolors.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	
+
+
+</head>
+	<body>
+		<h1>Words in Pixels</h1>
+
+<div id="line">
+	<div class="pixel-grid brown" data-char="q" data-color="brown"></div>
+	<div class="pixel-grid maroon" data-char="a" data-color="maroon"></div>
+	<div class="pixel-grid crimson" data-char="b" data-color="crimson"></div>
+	<div class="pixel-grid coral" data-char="c" data-color="coral"></div>
+	<div class="pixel-grid orange" data-char="d" data-color="orange"></div>
+	<div class="pixel-grid gold" data-char="e" data-color="gold"></div>
+	<div class="pixel-grid golden-rod" data-char="f" data-color="golden-rod"></div>
+	<div class="pixel-grid pale-golden-rod" data-char="g" data-color="pale-golden-rod"></div>
+	<div class="pixel-grid dark-khaki" data-char="h" data-color="dark-khaki"></div>
+	<div class="pixel-grid olive" data-char="i" data-color="olive"></div>
+	<div class="pixel-grid yellow" data-char="j" data-color="yellow"></div>
+	<div class="pixel-grid yellow-green" data-char="k" data-color="yellow-green"></div>
+	<div class="pixel-grid dark-olive-green" data-char="l" data-color="dark-olive-green"></div>
+	<div class="pixel-grid forest-green" data-char="m" data-color="forest-green"></div>
+	<div class="pixel-grid pale-green" data-char="n" data-color="pale-green"></div>
+	<div class="pixel-grid dark-sea-green" data-char="o" data-color="dark-sea-green"></div>
+	<div class="pixel-grid sea-green" data-char="p" data-color="sea-green"></div>
+	<div class="pixel-grid dark-cyan" data-char="q" data-color="dark-cyan"></div>
+	<div class="pixel-grid cyan" data-char="r" data-color="cyan"></div>
+	<div class="pixel-grid sky-blue" data-char="s" data-color="sky-blue"></div>
+	<div class="pixel-grid midnight-blue" data-char="t" data-color="midnight-blue"></div>
+	<div class="pixel-grid royal-blue" data-char="u" data-color="royal-blue"></div>
+	<div class="pixel-grid indigo" data-char="v" data-color="indigo"></div>
+	<div class="pixel-grid medium-purple" data-char="w" data-color="medium-purple"></div>
+	<div class="pixel-grid medium-orchid" data-char="x" data-color="medium-orchid"></div>
+	<div class="pixel-grid thistle" data-char="y" data-color="thistle"></div>
+	<div class="pixel-grid plum" data-char="z" data-color="plum"></div>
+	<div class="pixel-grid orchid" data-char="å" data-color="orchid"></div>
+	<div class="pixel-grid medium-violet-red" data-char="ä" data-color="medium-violet-red"></div>
+	<div class="pixel-grid pink" data-char="ö" data-color="pink"></div>
+</div>
+
+<br>
+<br>
+	<div id="frame">
+	</div>
+<textarea class="textinput" id="textfield" placeholder="Here be text."></textarea>
+<!-- keyboard-->
+<div class="keyboard">
+	<div class="rcorners"> <!-- keyboard frame-->
+			<!--
+			<div class="rcorners1 char"> 
+				<p>esc</p>
+			</div>
+		-->
+<br>
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>1 !</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>2 " @</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>3 #</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>4 €</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>5 %</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>6 &</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>7 /</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>8 (</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>9 )</p>
+			</div>
+			
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>0 =</p>
+			</div>
+
+			<div class="rcorners2 char"> <!-- numbers --->
+				<p>? +</p>
+			</div>
+
+			<!--
+			<div class="backspace char"> 
+				<p>&#10229;</p>
+			</div>
+		-->
+<br>
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>Q</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>W</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>E</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>R</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>T</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>Y</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>U</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>I</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>O</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>P</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>Å</p>
+			</div>
+<br>
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>A</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>S</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>D</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>F</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>G</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>H</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>J</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>K</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>L</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>Ö</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>Ä</p>
+			</div>
+<br>
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>Z</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>X</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>C</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>V</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>B</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>N</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>M</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>; ,</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>: .</p>
+			</div>
+
+			<div class="rcorners3 char"> <!-- letters. A to Ö --->
+				<p>_</p>
+			</div>
+<br>
+			<div class="rcorners4 char"> <!-- space-key --->
+				<p>space</p>
+			</div>
+	</div>	
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	</body>
+</html>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+			pixelGrid(810);
+
+		</script>
+
+
