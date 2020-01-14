@@ -8,6 +8,11 @@ h1 {
 	font-size: 40px;
 	text-align: center;
 }
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
 	
 .pixel-grid {
 	border: 1px solid black;
@@ -53,48 +58,18 @@ h1 {
 
 /* keyboard-frame */
 .rcorners {
-	/*
-	border-radius: 15px;
-	border: 2px solid grey;
-	padding: 20px; 
-	width: 820px;
-	height: 480px; 
-	padding-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #D3D3D3;
-	*/
 	border-radius: 15px;
     border: 2px solid grey;
     padding: 20px;
     width: 700px;
-    /* height: 480px; */
+	height: auto;
     padding-bottom: 70px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     background-color: #D3D3D3;
-    /* float: left; */
-    float: right;
     margin-top: -160px;
     margin-right: 20px;
 }
-
-/* esc-btn */
-/*.rcorners1 {
-	border-radius: 10px;
-	border: 1px solid grey;
-	margin: 10px;
-	padding: 3px;
-	width: 65px;
-	height: 15px;
-	text-align: center;
-	font-size: 18px;
-	min-height: none;
-	display: table-cell;
-	vertical-align: middle;
-	background-color: #A9A9A9;
-	color: black;
-}*/
 
 /* numbers */
 .rcorners2 {
@@ -114,24 +89,7 @@ h1 {
 	color: black;
 }
 
-/* backspace */
-/*.backspace {
-	border-radius: 10px;
-	border: 1px solid grey;
-	padding: 3px 0;
-	width: 90px;
-	height: 55px;
-	text-align: center;
-	font-size: 18px;
-	float: right;
-	min-height: none;
-	display: table-cell;
-	vertical-align: middle;
-	background-color: #A9A9A9;
-	color: black;
-}*/
-
-/* lettes A to Ö */
+/* lettes A to Ö (swedish keyboard)*/
 .rcorners3 {
 	border-radius: 10px;
 	border: 1px solid grey;
@@ -167,7 +125,3 @@ h1 {
 	color: black;
 	position: absolute;
 }
-
-
-
-
